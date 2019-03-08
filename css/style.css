@@ -1,0 +1,54 @@
+.intro
+{
+	text-align : center;
+}
+
+.intro-left
+{
+	width : 50%;
+	text-align : center;
+	float : left;
+}
+
+.intro-right
+{
+	width : 50%;
+	text-align : center;
+	float : right;
+}
+
+.intro-two-columns h1
+{
+	color : #FFF;
+	margin-top : 0px;
+	margin-bottom : 0px;
+	font-size : 5em;
+	font-family : nanum-gothic;
+}
+
+.intro-two-columns .sub-title
+{
+	font-size : 1.5em;
+	font-weight : bold;
+	color : #FFF;
+	margin-top : 0px;
+	margin-bottom : 0px;
+}
+
+.intro h1
+{
+	color : #FFF;
+	margin-top : 0px;
+	margin-bottom : 0px;
+	font-size : 5em;
+	font-family : nanum-gothic;
+}
+
+.intro .sub-title
+{
+	font-size : 1.5em;
+	font-weight : bold;
+	color : #FFF;
+	margin-top : 0px;
+	margin-bottom : 0px;
+}
