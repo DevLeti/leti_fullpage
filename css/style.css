@@ -73,7 +73,16 @@ MOBILE VERSION
 		height : 100%;
 		text-align : center;
 	}
-
+	
+	.img-center
+	{
+		height : 50%;
+	}
+	
+	.intro .title-and-sub-title
+	{
+		height : 50%;
+	}
 	.intro-left
 	{
 		text-align : center;
