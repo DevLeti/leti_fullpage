@@ -1,54 +1,122 @@
-.intro
+/*************
+
+PC VERSION
+
+*************/
+@media only screen and (min-width : 421px)
 {
-	text-align : center;
+	.intro
+	{
+		text-align : center;
+	}
+
+	.intro-left
+	{
+		width : 50%;
+		text-align : center;
+		float : left;
+	}
+
+	.intro-right
+	{
+		width : 50%;
+		text-align : center;
+		float : right;
+	}
+
+	.intro-two-columns h1
+	{
+		color : #FFF;
+		margin-top : 0px;
+		margin-bottom : 0px;
+		font-size : 5em;
+		font-family : arial;
+	}
+
+	.intro-two-columns .sub-title
+	{
+		font-size : 1.5em;
+		font-weight : bold;
+		color : #FFF;
+		margin-top : 0px;
+		margin-bottom : 0px;
+	}
+
+	.intro h1
+	{
+		color : #FFF;
+		margin-top : 0px;
+		margin-bottom : 0px;
+		font-size : 5em;
+		font-family : arial;
+	}
+
+	.intro .sub-title
+	{
+		font-size : 1.5em;
+		font-weight : bold;
+		color : #FFF;
+		margin-top : 0px;
+		margin-bottom : 0px;
+	}
 }
 
-.intro-left
-{
-	width : 50%;
-	text-align : center;
-	float : left;
-}
+/*************
 
-.intro-right
-{
-	width : 50%;
-	text-align : center;
-	float : right;
-}
+MOBILE VERSION
 
-.intro-two-columns h1
+*************/
+@media screen and (max-width : 420px)
 {
-	color : #FFF;
-	margin-top : 0px;
-	margin-bottom : 0px;
-	font-size : 5em;
-	font-family : arial;
-}
+	.intro
+	{
+		height : 100%;
+		text-align : center;
+	}
 
-.intro-two-columns .sub-title
-{
-	font-size : 1.5em;
-	font-weight : bold;
-	color : #FFF;
-	margin-top : 0px;
-	margin-bottom : 0px;
-}
+	.intro-left
+	{
+		text-align : center;
+	}
 
-.intro h1
-{
-	color : #FFF;
-	margin-top : 0px;
-	margin-bottom : 0px;
-	font-size : 5em;
-	font-family : arial;
-}
+	.intro-right
+	{
+		text-align : center;
+	}
 
-.intro .sub-title
-{
-	font-size : 1.5em;
-	font-weight : bold;
-	color : #FFF;
-	margin-top : 0px;
-	margin-bottom : 0px;
+	.intro-two-columns h1
+	{
+		color : #FFF;
+		margin-top : 0px;
+		margin-bottom : 0px;
+		font-size : 5em;
+		font-family : arial;
+	}
+
+	.intro-two-columns .sub-title
+	{
+		font-size : 1.5em;
+		font-weight : bold;
+		color : #FFF;
+		margin-top : 0px;
+		margin-bottom : 0px;
+	}
+
+	.intro h1
+	{
+		color : #FFF;
+		margin-top : 0px;
+		margin-bottom : 0px;
+		font-size : 5em;
+		font-family : arial;
+	}
+
+	.intro .sub-title
+	{
+		font-size : 1.5em;
+		font-weight : bold;
+		color : #FFF;
+		margin-top : 0px;
+		margin-bottom : 0px;
+	}
 }
